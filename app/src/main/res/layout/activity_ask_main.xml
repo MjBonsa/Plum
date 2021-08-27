@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AskNameActivitity"
+    android:background="@drawable/main_background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:alpha="0"
+            android:id="@+id/welcome_to_plum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Welcome to PLUM\nEnter your name below so that we know how to name you"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_slab"
+            android:textSize="30sp"
+            android:textColor="@color/black"></TextView>
+
+        <EditText
+            android:alpha="0"
+            android:id="@+id/user_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below = "@id/welcome_to_plum"
+            android:layout_margin="50dp"
+            android:hint="YOUR NAME"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:maxLines="1"/>
+
+        <Button
+            android:alpha="0"
+            android:id="@+id/confirm_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="CONFIRM"
+            android:layout_below="@+id/user_name"
+            android:layout_centerInParent="true"
+            style="@style/myButtonStyle"
+
+            />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

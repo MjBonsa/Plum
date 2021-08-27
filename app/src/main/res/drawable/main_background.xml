@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape  android:shape="rectangle">
+           <gradient
+               android:centerColor="@color/white"
+               android:endColor="@color/status_bar_color"
+               android:angle="90"
+               />
+        </shape>
+    </item>
+
+    <item><shape>
+
+    </shape></item>
+
+</layer-list>

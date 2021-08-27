@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "419282958035",
+    "project_id": "plum-back",
+    "storage_bucket": "plum-back.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419282958035:android:baf5c59883ba1dfdf2c626",
+        "android_client_info": {
+          "package_name": "com.plumcoop.plum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419282958035-28jg37i43n9vbqca1a3ju6fsojpga7k6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plumcoop.plum",
+            "certificate_hash": "b34fe7c70b90888d931934bca95672e51cea9c13"
+          }
+        },
+        {
+          "client_id": "419282958035-fvpb0uaqlulkue1b0oglq7pejfljn3pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYp34uTi8ipC4y4tKGyTN_XfIXg8rfvuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419282958035-fvpb0uaqlulkue1b0oglq7pejfljn3pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

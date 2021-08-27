@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignIn"
+    android:background="@drawable/main_background"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/main_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/reem_kufi"
+                android:gravity="top"
+                android:text="@string/plum"
+                android:textColor="@color/main_color"
+                android:textSize="100sp"
+
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:text="Hi! \n To save your places and sync them with other devices, you need to register."
+                android:textAlignment="center"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/text_to_get_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your phone number"
+                android:fontFamily="@font/roboto_slab"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_below="@+id/text_to_get_code"
+                android:layout_width="224dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="+7"
+                android:inputType="phone"
+                android:fontFamily="@font/roboto_slab"
+                android:text="+7 921 577-47-75"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:alpha="0"
+                android:id="@+id/editCode"
+                android:layout_width="112dp"
+                android:layout_below="@+id/text_to_get_code"
+                android:layout_height="wrap_content"
+                android:autofillHints="+7"
+                android:ems="10"
+                android:inputType="phone"
+                android:text=""
+                android:maxLength="6"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/send_code"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/editCode"
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="send code"
+                style="@style/myButtonStyle"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
